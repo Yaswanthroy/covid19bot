@@ -3,6 +3,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, CallbackQueryHandler
 import requests
 import locale
+import os
 locale.setlocale(locale.LC_ALL, 'en_IN')
 
 BOT_TOKEN = os.environ.get("BOT_API_KEY","")
