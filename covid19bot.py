@@ -14,7 +14,7 @@ bot = telegram.Bot(BOT_TOKEN)
 def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
         [
-            InlineKeyboardButton("WORLDWIDE", callback_data='World'),
+            InlineKeyboardButton("GLOBAL", callback_data='World'),
             InlineKeyboardButton("INDIA", callback_data='india'),
         ],
     ]
